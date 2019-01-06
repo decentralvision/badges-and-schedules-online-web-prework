@@ -8,4 +8,4 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(speakers)
-  return speakers.collect {|speaker, i| "Hello, #{speaker}! You'll be assigned to room #{i}"}
+  return speakers.collect {|speaker, i| "Hello, #{speaker}! You'll be assigned to room #{i}!"}
