@@ -3,8 +3,8 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
-  return array.map {|name| badge_maker(name)}
+def batch_badge_creator(attendees)
+  return attendees.map {|name| badge_maker(name)}
 end
 
 def assign_rooms(speakers)
